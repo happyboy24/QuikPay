@@ -1,0 +1,16 @@
+[project]
+name = "quickpay"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=6.0.2",
+    "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "gunicorn>=23.0.0",
+    "psycopg2-binary>=2.9.11",
+    "mysqlclient>=2.2.8",
+    "requests>=2.32.5",
+    "whitenoise>=6.9.0"
+]
